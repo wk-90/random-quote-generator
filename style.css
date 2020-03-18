@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(58, 169, 233);
+    color: #fff;
+    
+}
+
+main {
+    display: block;
+    text-align: center;   
+}
+
+
+header {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.box {
+    margin-bottom: 20vh;
+    height: 20vh;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15vh;
+}
+
+button, a {
+    display: block;
+    margin: auto;
+    margin-bottom: 5vh;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(58, 169, 233);
+    background: #fff
+}
+
+button:focus {
+    outline: 0 !important;
+}
+
+a {
+    text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: rgb(58, 169, 233);
+    background: #fff
+}
+
