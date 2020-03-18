@@ -1,6 +1,20 @@
+// Animating Twitt 'a' tag
+var a = document.querySelector('a');
+var i = document.querySelector('i');
 
+a.addEventListener('mouseover', function(){            
+    i.style.color = "rgb(58, 169, 233)";
+    i.style.background = "#fff";
+})
+
+a.addEventListener('mouseout', function(){
+    i.style.color = "#fff";
+    i.style.background = "rgb(58, 169, 233)";
+})
+
+
+// main variables
 var tweetLink = "https://twitter.com/intent/tweet?text=";
-
 var quoteUrl = "http://quotes.stormconsultancy.co.uk/random.json";
 
 // Generating quote
